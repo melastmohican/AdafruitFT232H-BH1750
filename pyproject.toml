@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "adafruitft232h-bh1750"
+version = "0.1.0"
+description = ""
+authors = ["Mariusz Jurgielewicz <mordor@mail.com>"]
+readme = "README.md"
+packages = [{include = "adafruitft232h_bh1750"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyftdi = "^0.54.0"
+board = "^1.0"
+adafruit-circuitpython-bh1750 = "^1.1.6"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
